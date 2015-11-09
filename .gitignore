@@ -1,0 +1,8 @@
+node_modules
+
+# Bower
+###################
+public/lib/
+
+.idea
+.DS_Store

@@ -1,0 +1,22 @@
+{
+    "log": {
+        "DailyRotateFile": {
+            "enabled": true,
+            "level": "info",
+            "filename": "meet.log",
+            "handleExceptions": true,
+            "dirname": "./log",
+            "maxsize": 5242880,
+            "maxFiles": 5,
+            "json": true,
+            "colorize": false
+        },
+        "Console": {
+            "enabled": true,
+            "level": "debug",
+            "handleExceptions": true,
+            "json": false,
+            "colorize": true
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "meet",
+  "version": "0.0.0",
+  "authors": [
+    "Chris Wendt <chris@chriswendt.net>"
+  ],
+  "description": "StreamStack Meet application",
+  "main": "public/js/app.bundle.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "~2.1.4",
+    "jquery-autosize": "~3.0.6",
+    "jquery-impromptu": "~6.2.1",
+    "jquery-ui": "~1.11.4",
+    "toastr": "~2.1.1",
+    "tooltip": "*",
+    "strophe": "~1.1.3",
+    "strophejs-plugins": "~0.0.4",
+    "bootstrap": "~3.3.5"
+  }
+}
